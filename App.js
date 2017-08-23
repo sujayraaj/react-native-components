@@ -1,9 +1,10 @@
 import React from 'react';
 import { AppRegistry, ListView, StyleSheet, Text, View } from 'react-native';
+import Calendar from './src/calendar';
 
 export default class App extends React.Component {
   render(){
-    return <Text>Hello World</Text>;
+    return <Calendar date={new Date()}/>;
   }
 }
 
